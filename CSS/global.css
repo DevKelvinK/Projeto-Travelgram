@@ -10,6 +10,15 @@
 
   --text-color-primary: #313131;
   --text-color-secondary: #6C6C6C;
+
+  /* Text */
+
+  --font-poppins: "Poppins", sans-serif;
+
+  --text-lg: bold 2rem/125% var(--font-poppins); /* 32px */
+  --text: 1rem/1.5 var(--font-poppins); /* 16px */
+  --text-md: .875rem/175% var(--font-poppins); /* 14px */
+  --text-md: .75rem/175% var(--font-poppins); /* 12px */
 }
 
 * {
@@ -20,6 +29,8 @@
 }
 
 body {
+  font: var(--text);
+
   color: var(--text-color-secondary);
   background-color: var(--background-color);
 }
