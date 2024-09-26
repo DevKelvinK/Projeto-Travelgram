@@ -1,0 +1,35 @@
+header {
+  background-color: var(--surface-color);
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-block: 1.25rem;
+
+  line-height: 0;
+}
+
+.navMenu ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+
+  gap: 1.5rem;
+}
+
+.navMenu ul li:first-child i {
+  font-size: 24px;
+
+  align-self: flex-end;
+}
+
+.navMenu ul li:first-child a:hover {
+  text-decoration: none;
+}
+
+.navMenu ul li img {
+  width: 40px;
+}
