@@ -2,7 +2,7 @@ header {
   background-color: var(--surface-color);
 }
 
-.navMenu {
+header .navMenu {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,7 +12,7 @@ header {
   line-height: 0;
 }
 
-.navMenu ul {
+header .navMenu ul {
   display: flex;
   align-items: center;
   list-style: none;
@@ -20,16 +20,67 @@ header {
   gap: 1.5rem;
 }
 
-.navMenu ul li:first-child i {
+header .navMenu ul li:first-child i {
   font-size: 24px;
 
   align-self: flex-end;
 }
 
-.navMenu ul li:first-child a:hover {
+header .navMenu ul li:first-child a:hover {
   text-decoration: none;
 }
 
-.navMenu ul li img {
+header .navMenu ul li img {
   width: 40px;
+}
+
+header .about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-block: 2rem;
+
+  font: var(--text-md);
+}
+
+header .about .profile {
+  display: flex;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+header .about .profile div {
+  max-width: 384px;
+}
+
+header .about .profile div h1 {
+  margin-bottom: .5rem;
+
+  font: var(--text-lg);
+
+  color: var(--text-color-primary);
+}
+
+header .about .info {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+
+  width: 280px;
+  gap: 1rem;
+}
+
+header .about .info li {
+  display: flex;
+  align-items: center;
+
+  gap: .5rem;
+}
+
+header .about .info i {
+  font-size: 24px;
+
+  color: var(--brand-color);
 }
