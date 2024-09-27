@@ -1,7 +1,3 @@
-main {
-  background-color: var(--surface-color);
-}
-
 main .about {
   display: flex;
   align-items: center;
@@ -10,20 +6,22 @@ main .about {
   padding-block: 2rem;
 
   font: var(--text-md);
+
+  background-color: var(--surface-color);
 }
 
-main .profile {
+main .about .profile {
   display: flex;
   align-items: center;
 
   gap: 2rem;
 }
 
-main .profile div {
+main .about .profile div {
   max-width: 384px;
 }
 
-main .profile div h1 {
+main .about .profile div h1 {
   margin-bottom: .5rem;
 
   font: var(--text-lg);
@@ -31,7 +29,7 @@ main .profile div h1 {
   color: var(--text-color-primary);
 }
 
-main .info {
+main .about .info {
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -40,15 +38,30 @@ main .info {
   gap: 1rem;
 }
 
-main .info li {
+main .about .info li {
   display: flex;
   align-items: center;
 
   gap: .5rem;
 }
 
-main .info i {
+main .about .info i {
   font-size: 24px;
 
   color: var(--brand-color);
+}
+
+main .photoGallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding-block: 1.5rem;
+  gap: 1.5rem;
+}
+
+main .photoGallery img {
+  max-width: 286px;
+
+  object-fit: cover;
 }
