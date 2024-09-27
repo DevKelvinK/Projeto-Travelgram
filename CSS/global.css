@@ -17,8 +17,8 @@
 
   --text-lg: bold 2rem/125% var(--font-poppins); /* 32px */
   --text: 1rem/1.5 var(--font-poppins); /* 16px */
-  --text-md: .875rem/175% var(--font-poppins); /* 14px */
-  --text-md: .75rem/175% var(--font-poppins); /* 12px */
+  --text-md: .875rem/170% var(--font-poppins); /* 14px */
+  --text-sm: .75rem/170% var(--font-poppins); /* 12px */
 }
 
 * {
