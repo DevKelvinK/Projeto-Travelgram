@@ -36,7 +36,7 @@ Projeto Travelgram/
    └── (imagens e icones do projeto)
 ```
 ## Licença
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a [MIT License](https://opensource.org/license/mit).
 
 ## Contato
 Para mais informações, entre em contato pelo e-mail: [kelvinkesley@icloud.com](mailto:kelvinkesley@icloud.com)
